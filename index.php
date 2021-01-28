@@ -15,23 +15,38 @@
   <!-- bootstrap wysihtml5 - text editor -->
   <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
 
-  <link rel="stylesheet" type="text/css" href="dist/jQueryUI-1.12.1/themes/base/jquery-ui.min.css"/>
-  <link rel="stylesheet" type="text/css" href="dist/DataTables-1.10.23/css/dataTables.jqueryui.min.css"/>
-  <link rel="stylesheet" type="text/css" href="dist/Buttons-1.6.5/css/buttons.jqueryui.min.css"/>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/1.10.23/js/dataTables.bootstrap4.min.js"></script>
 
-  <script type="text/javascript" src="dist/jQuery-3.3.1/jquery-3.3.1.min.js"></script>
-  <script type="text/javascript" src="dist/jQueryUI-1.12.1/jquery-ui.min.js"></script>
-  <script type="text/javascript" src="dist/JSZip-2.5.0/jszip.min.js"></script>
-  <script type="text/javascript" src="dist/pdfmake-0.1.36/pdfmake.min.js"></script>
-  <script type="text/javascript" src="dist/pdfmake-0.1.36/vfs_fonts.js"></script>
-  <script type="text/javascript" src="dist/DataTables-1.10.23/js/jquery.dataTables.min.js"></script>
-  <script type="text/javascript" src="dist/DataTables-1.10.23/js/dataTables.jqueryui.min.js"></script>
-  <script type="text/javascript" src="dist/Buttons-1.6.5/js/dataTables.buttons.min.js"></script>
-  <script type="text/javascript" src="dist/Buttons-1.6.5/js/buttons.jqueryui.min.js"></script>
-  <script type="text/javascript" src="dist/Buttons-1.6.5/js/buttons.colVis.min.js"></script>
-  <script type="text/javascript" src="dist/Buttons-1.6.5/js/buttons.flash.min.js"></script>
-  <script type="text/javascript" src="dist/Buttons-1.6.5/js/buttons.html5.min.js"></script>
-  <script type="text/javascript" src="dist/Buttons-1.6.5/js/buttons.print.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.12/js/dataTables.bootstrap.min.js"></script>  
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/dataTables.bootstrap.min.css" />
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap4.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/autofill/2.3.5/css/autoFill.bootstrap4.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.6.5/css/buttons.bootstrap4.min.css"/>
+  
+  
+  <script src="dist/jquery-tabledit-1.2.3/jquery.tabledit.js"></script>
+
+  <script type="text/javascript" src="dist/jquery-tabledit-1.2.3/jquery.tabledit.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/1.10.23/js/dataTables.bootstrap4.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/autofill/2.3.5/js/dataTables.autoFill.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/autofill/2.3.5/js/autoFill.bootstrap4.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.5/js/dataTables.buttons.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.bootstrap4.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.colVis.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.flash.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.html5.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.print.min.js"></script>
+
 
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
@@ -515,7 +530,7 @@
         <!-- Main row -->
         <div class="row">
           <div class="container">
-            <div class="card">
+            <div>
                 <table id="example" class="table table-striped table-bordered" style="width:100%">
             <thead>
                 <tr>
@@ -526,6 +541,7 @@
                     <th>No. Extension</th>
                     <th>Keterangan</th>
                     <th>Gambar</th>
+
                 </tr>
             </thead>
             <tbody>       
@@ -569,11 +585,27 @@
                 var table = $('#example').DataTable( {
                     lengthChange: false,
                     buttons: [ 'copy', 'excel', 'pdf', 'colvis' ]
-                } );
-            
+                    } );
+                $('#example').Tabledit({
+                  url:'./action.php',
+                  columns:{
+                  identifier:[0, "id_karyawan"],
+                  editable:[[3, 'kategori'], [4, 'no_extension'], [5, 'keterangan']]
+                  },
+                  restoreButton:false,
+                  onSuccess:function(data, textStatus, jqXHR)
+                  {
+                  if(data.action == 'delete')
+                  {
+                    $('#'+data.id).remove();
+                  }
+                  }
+                });
                 table.buttons().container()
-                    .insertBefore( '#example_filter' );
+                .appendTo( '#example_wrapper .col-md-6:eq(0)' );
+                    
             } );
+            
         </script>
         </div>
       </div>
