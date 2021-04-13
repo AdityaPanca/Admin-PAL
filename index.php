@@ -217,286 +217,7 @@
                   <p>Data Table</p>
                 </a>
               </li>
-              <li class="nav-item">
-                <a href="./index2.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Dashboard v2</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Dashboard v3</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="pages/widgets.html" class="nav-link">
-              <i class="nav-icon fa fa-th"></i>
-              <p>
-                Widgets
-                <span class="right badge badge-danger">New</span>
-              </p>
-            </a>
-          </li>
-          <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-pie-chart"></i>
-              <p>
-                Charts
-                <i class="right fa fa-angle-left"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="pages/charts/chartjs.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>ChartJS</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/charts/flot.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Flot</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/charts/inline.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Inline</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-tree"></i>
-              <p>
-                UI Elements
-                <i class="fa fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="pages/UI/general.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>General</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/UI/icons.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Icons</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/UI/buttons.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Buttons</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/UI/sliders.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Sliders</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-edit"></i>
-              <p>
-                Forms
-                <i class="fa fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="pages/forms/general.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>General Elements</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/forms/advanced.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Advanced Elements</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/forms/editors.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Editors</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-table"></i>
-              <p>
-                Tables
-                <i class="fa fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="pages/tables/simple.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Simple Tables</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/tables/data.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Data Tables</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-header">EXAMPLES</li>
-          <li class="nav-item">
-            <a href="pages/calendar.html" class="nav-link">
-              <i class="nav-icon fa fa-calendar"></i>
-              <p>
-                Calendar
-                <span class="badge badge-info right">2</span>
-              </p>
-            </a>
-          </li>
-          <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-envelope-o"></i>
-              <p>
-                Mailbox
-                <i class="fa fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="pages/mailbox/mailbox.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Inbox</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/mailbox/compose.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Compose</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/mailbox/read-mail.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Read</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-book"></i>
-              <p>
-                Pages
-                <i class="fa fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="pages/examples/invoice.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Invoice</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/examples/profile.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Profile</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/examples/login.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Login</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/examples/register.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Register</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/examples/lockscreen.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Lockscreen</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-plus-square-o"></i>
-              <p>
-                Extras
-                <i class="fa fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="pages/examples/404.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Error 404</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/examples/500.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Error 500</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/examples/blank.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Blank Page</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="starter.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Starter Page</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-header">MISCELLANEOUS</li>
-          <li class="nav-item">
-            <a href="https://adminlte.io/docs" class="nav-link">
-              <i class="nav-icon fa fa-file"></i>
-              <p>Documentation</p>
-            </a>
-          </li>
-          <li class="nav-header">LABELS</li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-circle-o text-danger"></i>
-              <p class="text">Important</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-circle-o text-warning"></i>
-              <p>Warning</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-circle-o text-info"></i>
-              <p>Informational</p>
-            </a>
-          </li>
+              
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
@@ -511,7 +232,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Data Table</h1>
+            <h1 class="m-0 text-dark">Data Report</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -525,20 +246,19 @@
     <!-- /.content-header -->
 
     <!-- Main content -->
-    <section class="content">
-      <div class="container-fluid">   
+    <section class="content"> 
         <!-- Main row -->
-        <div class="row">
-          <div class="container">
+          <div class="card">
             <div>
                 <table id="example" class="table table-striped table-bordered" style="width:100%">
             <thead>
                 <tr>
-                    <th>Nip.</th>
+                    <th>NIP</th>
                     <th>Nama</th>
                     <th>Divisi</th>
+                    <th>Tanggal</th>
                     <th>Kategori Masalah</th>
-                    <th>No. Extension</th>
+                    <th>Status</th>
                     <th>Keterangan</th>
                     <th>Gambar</th>
 
@@ -546,20 +266,21 @@
             </thead>
             <tbody>       
               <?php
-                  $koneksi = mysqli_connect("localhost", "root", "", "dataPAL");
-                  $sel_query= "SELECT * FROM laporan ";
+                  $koneksi = mysqli_connect("localhost", "root", "", "DBreport");
+                  $sel_query= "SELECT * FROM pelanggaran ";
                   $result = mysqli_query($koneksi,$sel_query);
                   while($row = mysqli_fetch_assoc($result))
                   {
                     echo '
                         <tr>
-                        <td>'.$row["id_karyawan"].'</td>
-                        <td>'.$row["nama"].'</td>
-                        <td>'.$row["divisi"].' </td>
-                        <td>'.$row["kategori"].' </td>
-                        <td>'.$row["no_extension"].' </td>
+                        <td>'.$row["NIP"].'</td>
+                        <td>'.$row["NAMA"].'</td>
+                        <td>'.$row["NAMA_DIVISI"].' </td>
+                        <td>'.$row["tanggal"].' </td>
+                        <td>'.$row["kat_pelanggaran"].' </td>
+                        <td>'.$row["pelanggaran_status"].' </td>
                         <td>'.$row["keterangan"].' </td>
-                        <td>'.$row["image"].' </td>
+                        <td>'.$row["image_path"].' </td>
                        </tr>        
                     ';
                   }
@@ -568,13 +289,14 @@
             </tbody>
             <tfoot>
                 <tr>
-                  <th>Nip.</th>
-                  <th>Nama</th>
-                  <th>Divisi</th>
-                  <th>Kategori Masalah</th>
-                  <th>No. Extension</th>
-                  <th>Keterangan</th>
-                  <th>Gambar</th>
+                  <th>NIP</th>
+                    <th>Nama</th>
+                    <th>Divisi</th>
+                    <th>Tanggal</th>
+                    <th>Kategori Masalah</th>
+                    <th>Status</th>
+                    <th>Keterangan</th>
+                    <th>Gambar</th>
                 </tr>
             </tfoot>
         </table>
@@ -582,30 +304,14 @@
         </div>
         <script type="text/javascript">
                 $(document).ready(function() {
-                var table = $('#example').DataTable( {
-                    lengthChange: false,
-                    buttons: [ 'copy', 'excel', 'pdf', 'colvis' ]
-                    } );
-                $('#example').Tabledit({
-                  url:'./action.php',
-                  columns:{
-                  identifier:[0, "id_karyawan"],
-                  editable:[[3, 'kategori'], [4, 'no_extension'], [5, 'keterangan']]
-                  },
-                  restoreButton:false,
-                  onSuccess:function(data, textStatus, jqXHR)
-                  {
-                  if(data.action == 'delete')
-                  {
-                    $('#'+data.id).remove();
-                  }
-                  }
-                });
-                table.buttons().container()
-                .appendTo( '#example_wrapper .col-md-6:eq(0)' );
-                    
-            } );
-            
+                  var table = $('#example').DataTable( {
+                      lengthChange: false,
+                      buttons: [ 'copy', 'excel', 'pdf', 'colvis' ]
+                  } );
+              
+                  table.buttons().container()
+                      .appendTo( '#example_wrapper .col-md-6:eq(0)' );
+              } );
         </script>
         </div>
       </div>

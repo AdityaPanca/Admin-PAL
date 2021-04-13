@@ -1,6 +1,6 @@
 <?php  
 //action.php
-$connect = mysqli_connect('localhost', 'root', '', 'dataPAL');
+$connect = mysqli_connect('localhost', 'root', '', 'DBreport');
 
 $input = filter_input_array(INPUT_POST);
 
